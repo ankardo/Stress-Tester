@@ -1,0 +1,12 @@
+---
+services:
+  stress-tester:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - URL=${URL:-}
+      - REQUESTS=${REQUESTS:-100}
+      - CONCURRENCY=${CONCURRENCY:-10}
+    command: >-
+      go run ./cmd/cli/main.go
