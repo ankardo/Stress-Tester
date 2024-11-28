@@ -33,12 +33,15 @@ O **Stress Tester** é uma ferramenta escrita em **Go** para simular cargas de t
 - Total de requisições realizadas
 - Duração total da execução
 - Exemplo:
-        METRIC              |  VALUE
-----------------------------|-----------
-  Successful Requests (200) |        5
-  Other HTTP Responses      | 429: 995
-  Total Requests            |     1000
-  Total Duration (s)        |     0.21
+
+```
+      METRIC              |  VALUE
+--------------------------|-----------
+Successful Requests (200) |        5
+Other HTTP Responses      | 429: 995
+Total Requests            |     1000
+Total Duration (s)        |     0.21
+```
 
 ---
 
